@@ -102,13 +102,13 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                         ? ElevatedButton(
                             onPressed: () {
                               // Handle Register button press
-                              Navigator.pushNamed(context, '/Login');
+                              Navigator.pushNamed(context, '/login');
                             },
                             style: ElevatedButton.styleFrom(
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10),
                               ),
-                              primary: Color.fromARGB(0, 136, 117, 255),
+                              backgroundColor: Color.fromARGB(0, 136, 117, 255),
                             ),
                             child: Text(
                               'GET STARTED',
@@ -125,7 +125,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10),
                               ),
-                              primary: Color.fromARGB(0, 136, 117, 255),
+                              backgroundColor: Color.fromARGB(0, 136, 117, 255),
                             ),
                             child: Text(
                               'NEXT',
